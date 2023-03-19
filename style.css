@@ -1,14 +1,116 @@
+    *{
+        font-family: 'Work Sans', sans-serif;
+        margin: auto;
+    }
+
     /* ----------------
         header 
     ----------------- */
-    nav{
+    header{
+        background-color: rgba(255, 144, 14, 0.1);
+        height: auto;
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+
+
+    /* navigation */
+    .nav-bar{
         display: flex;
         align-items: center;
+    }
+
+    .nav-heading{
+        width: 40%;
+        margin-right: 0;
+    }
+
+    .nav-heading h3{
+        font-weight: 700;
+        font-size: 25px;
+        color: #131313;
+    }
+
+    .nav-links{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-links a{
+        text-decoration: none;
+        margin-right: 0px;
+        margin-left: 60px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #424242;
+        
+    }
+
+    /* banner */
+    .banner{
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .banner-text{
+        margin-bottom: 35px;
+    }
+
+    .banner-heading{
+        font-weight: 700;
+        font-size: 50px;
+        color: #131313;
+        margin-bottom: 20px;
+    }
+
+    .banner-description{
+        font-weight: 400;
+        font-size: 13px;
+        color: #727272;
+        margin-bottom: 25px;
+        width: 53%;
+    }
+
+    .banner-btn{
+        width: 150px;
+        height: 55px;
+        border: 0;
+        border-radius: 8px;
+        color: #FFFFFF;
+        background-color: #FF900E;
+    }
+
+    .banner img{
+        width: 80%;
+        height: auto;
+        padding-bottom: 20px;
     }
 
     /*----------------
         features 
     ----------------- */
+    .features{
+        display: flex;
+    }
+
+    .feature-photos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .feature-photos img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .feature-btn{
+        width: 150px;
+        height: 55px;
+        border: 0;
+        border-radius: 8px;
+        color: #FFFFFF;
+        background-color: #FF900E;;
+    }
 
     /*----------------
         list 
