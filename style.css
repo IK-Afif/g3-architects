@@ -25,6 +25,7 @@
         margin-right: 0;
     }
 
+
     .nav-heading h3{
         font-weight: 700;
         font-size: 25px;
@@ -58,7 +59,7 @@
 
     .banner-heading{
         font-weight: 700;
-        font-size: 50px;
+        font-size: 60px;
         color: #131313;
         margin-bottom: 20px;
     }
@@ -76,6 +77,8 @@
         height: 55px;
         border: 0;
         border-radius: 8px;
+        font-weight: 600;
+        font-size: 15px;
         color: #FFFFFF;
         background-color: #FF900E;
     }
@@ -91,6 +94,8 @@
     ----------------- */
     .features{
         display: flex;
+        width: 70%;
+        margin-bottom: 50px;
     }
 
     .feature-photos{
@@ -101,6 +106,37 @@
     .feature-photos img{
         width: 250px;
         height: 250px;
+        margin: 10px;
+    }
+
+    .feature-text{
+        margin-left: 30px;
+    }
+
+    .feature-heading{
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+    }
+
+    .f-h-1{
+        font-weight: 500;
+        font-size: 45px;
+        color: #727272;
+    }
+
+    .f-h-2{
+        font-weight: 700;
+        font-size: 45px;
+        color: #FF900E;
+    }
+
+    .feature-description{
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 13px;
+        color: #727272;
     }
 
     .feature-btn{
@@ -108,8 +144,10 @@
         height: 55px;
         border: 0;
         border-radius: 8px;
+        font-weight: 600;
+        font-size: 15px;
         color: #FFFFFF;
-        background-color: #FF900E;;
+        background-color: #FF900E;
     }
 
     /*----------------
