@@ -95,7 +95,7 @@
     .features{
         display: flex;
         width: 70%;
-        margin-bottom: 50px;
+        margin-bottom: 70px;
     }
 
     .feature-photos{
@@ -153,10 +153,151 @@
     /*----------------
         list 
     -----------------*/
+    .lists{
+        display: flex;
+        width: 85%;
+        margin-bottom: 50px;
+    }
+
+    .lists-text{
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .lists-heading{
+        display: flex;
+    }
+
+    .lists-heading h3{
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .lists-heading button{
+        height: 95px;
+        width: 5px;
+        padding: 0;
+        background-color: #FF900E;
+        border: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-top: px;
+    }
+
+    .lists-text-description{
+        font-weight: 400;
+        font-size: 13px;
+        color: #727272;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .boxes-list{
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    .boxes-list h3{
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .boxes-list p{
+        font-weight: 400;
+        font-size: 13px;
+        color: #727272;
+        margin-top: 20px;
+    }
+
+
+    .lists-image{
+        width: 50%;
+    }
+
+    .lists-image img{
+        width: 80%;
+        display: block;
+        margin-right: 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    .lists-btn{
+        width: 200px;
+        height: 120px;
+        border: 0;
+        border-radius: 8px;
+        font-weight: 500;
+        font-size: 18px;
+        color: #FFFFFF;
+        background-color: #FF900E;
+        position: relative;
+        z-index: 2;
+        top: -40px;
+        left: 50px;
+    }
+
+    .lists-btn span{
+        font-weight: 700;
+        font-size: 40px;
+    }
 
     /* ----------------
         facts 
     -----------------*/
+    .facts{
+        width: 80%;
+        margin-bottom: 150px;
+    }
+
+    .facts h3{
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+        margin-bottom: 10px;
+    }
+
+    .facts-text{
+        font-weight: 400;
+        font-size: 13px;
+        color: #727272;
+    }
+
+    .facts-boxes{
+        display: flex;
+        text-align: center;
+        margin-top: 70px;
+
+    }
+
+    .fact-box{
+        border: 1px solid #FF900E;
+        border-radius: 8px;
+        padding: 35px;
+        width: 12%;
+        height: 120px;
+    }
+
+    .fact-number{
+        font-weight: 600;
+        font-size: 40px;
+        color: #424242;
+        margin: 5px;
+    }
+
+    .fact-description{
+        font-weight: 600;
+        font-size: 13px;
+        color: #727272;
+    }
+
+
 
     /* ----------------
         sponsors 
