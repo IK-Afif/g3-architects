@@ -284,6 +284,12 @@
         height: 120px;
     }
 
+    .fact-box:hover{
+        transform: rotateY(720deg);
+        transition-duration: 1.5s;
+        border: 5px solid green;
+    }
+
     .fact-number{
         font-weight: 600;
         font-size: 40px;
@@ -297,16 +303,137 @@
         color: #727272;
     }
 
-
-
     /* ----------------
         sponsors 
     -----------------*/
+    .sponsors{
+        width: 80%;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .sponsors h3{
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+        margin-bottom: 30px;
+    }
+
+    .sponsors p{
+        width: 45%;
+        font-weight: 400;
+        font-size: 13px;
+        color: #727272;
+        margin-bottom: 50px;
+    }
+
+    .sponsor-images{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+
+    .sponsor-images img{
+        filter: grayscale(95%);
+        width: 70%;
+    }
 
     /*----------------
-        new section 
+        projects 
     -----------------*/
+    .projects{
+        width: 80%;
+        text-align: center;
+        display: flex;
+        margin-bottom: 100px;
+    }
+
+    .pro-head{
+        width: 30%;
+    }
+
+    .projects-heading{
+        font-weight: 700;
+        font-size: 45px;
+        color: #413935;
+        transform: rotate(-90deg);
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .projects p{
+        font-weight: 400;
+        font-size: 13px;
+        color: #727272;
+        margin-bottom: 50px;
+    }
+
+    .project-boxes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0;
+        width: 70%;
+        
+    }
+
+    .pro-box{
+        margin: 10px;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+        width: 90%;
+        height: 400px;
+    }
+
+    .pro-box img{
+        margin-top: 20px;
+        width: 90%;
+        height: 50%;
+        margin-bottom: 20px;
+        
+    }
+
+    .pro-box-text{
+        text-align: right;
+    }
+
+    .pro-box-text h3{
+        font-weight: 500;
+        font-size: 30px;
+        margin-bottom: 15px;
+        margin-right: 25px;
+    }
+
+    .pro-box-text p{
+        font-weight: 400;
+        font-size: 13px;
+        color: #727272;
+        margin-right: 25px;
+        margin-bottom: 20px;
+    }
+
+    .project-btn{
+        border: 0;
+        color: #FF900E;
+        background: none;
+        font-weight: 600;
+        font-size: 15px;
+        margin-right: 25px;
+    }
 
     /*----------------
         footer 
     -----------------*/
+    footer{
+        width: 80%;
+        background-color: rgba(255, 144, 14, 0.1);
+        text-align: center;
+        padding: 30px;
+        margin-bottom: 100px;
+    }
+
+    footer p{
+        font-weight: 400;
+        font-size: 13px;
+        color: #727272;
+    }
